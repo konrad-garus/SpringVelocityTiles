@@ -1,0 +1,1 @@
+Trivial project demostrating integration of Tiles, Velocity and Spring.

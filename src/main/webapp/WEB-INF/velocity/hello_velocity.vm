@@ -1,0 +1,6 @@
+#tiles_insertTemplate({"template":"/WEB-INF/velocity/template.vm"})
+  #tiles_putAttribute({"name":"title", "value": "Test Title"})#end
+  #tiles_putAttribute({"name":"body"})
+    #parse("body.vm")
+  #end
+#end

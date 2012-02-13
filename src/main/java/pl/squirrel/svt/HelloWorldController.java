@@ -1,0 +1,14 @@
+package pl.squirrel.svt;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloWorldController {
+
+	@RequestMapping("/hello.html")
+	public String velo() {
+		return "hello_velocity";
+	}
+}

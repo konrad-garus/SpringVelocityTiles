@@ -1,0 +1,6 @@
+<html>
+	<head><title>#tiles_insertAttribute({"name":"title"})#end</title></head>
+	<body>
+		#tiles_insertAttribute({"name":"body"})#end
+	</body>
+</html>
