@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloWorldController {
 
 	@RequestMapping("/hello.html")
-	public String velo() {
+	public String velo(ModelMap model) {
 		return "hello_velocity";
 	}
 }
