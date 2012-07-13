@@ -42,7 +42,7 @@ public class AppConfiguration implements ApplicationContextAware {
 	@Bean
 	public ViewResolver viewResolver() {
 		VelocityViewResolver resolver = new VelocityViewResolver();
-		resolver.setViewClass(VelocityToolboxView.class);
+		resolver.setViewClass(MyVelocityToolboxView.class);
 		resolver.setSuffix(".vm");
 		return resolver;
 	}
